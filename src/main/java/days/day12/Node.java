@@ -29,4 +29,11 @@ public class Node {
             this.neighbors.add(other);
         }
     }
+
+    public void addDownwardNeighborIfEligible(Node other){
+        // constructing the reverse path
+        if (this.getHeightMarker() <= other.heightMarker+1) {
+            this.neighbors.add(other);
+        }
+    }
 }

@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException{
         //change this line to get the result for a different day
-        Day currentDay = new Day11();
+        Day currentDay = new Day12();
 
         // read the input for this day
         String filename = currentDay.getName() + ".txt";
